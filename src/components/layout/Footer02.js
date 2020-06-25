@@ -39,7 +39,8 @@ class Footer extends React.Component {
                 <div className="footer-block">
                   <Logo className="mb-16" />
                   <div className="footer-copyright">
-                    &copy; voidcode, all rights reserved
+                    &copy; Fachgruppe Informatik (Georg-August-Universität
+                    Göttingen), all rights reserved
                   </div>
                 </div>
                 <div className="footer-block">

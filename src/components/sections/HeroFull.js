@@ -2,7 +2,6 @@ import React from "react";
 import classNames from "classnames";
 import { SectionProps } from "../../utils/SectionProps";
 import Button from "../elements/Button";
-import Image from "../elements/Image";
 
 const propTypes = {
   ...SectionProps.types,
@@ -49,19 +48,21 @@ class HeroFull extends React.Component {
                 className="mt-0 mb-16 reveal-from-bottom"
                 data-reveal-delay="200"
               >
-                Landing...
+                sIT2020
               </h1>
               <div className="container-xs">
                 <p
                   className="m-0 mb-32 reveal-from-bottom"
                   data-reveal-delay="400"
                 >
-                  Our landing page template works on all devices, so you only
-                  have to set it up once, and get beautiful results forever.
+                  Vom **DATUM** 2020 werden zum 16. Mal die studentischen
+                  Informatiktage (sIT2020) in Göttingen stattfinden. Als
+                  Rahmenthema für die Firmenvorträge haben wir uns dieses Jahr
+                  für **THEMA** entschieden.
                 </p>
                 <div className="reveal-from-bottom" data-reveal-delay="600">
                   <Button tag="a" color="primary" wideMobile href="#">
-                    Pricing and plans
+                    Timeline
                   </Button>
                 </div>
               </div>
@@ -70,15 +71,7 @@ class HeroFull extends React.Component {
               className="hero-figure reveal-from-bottom illustration-element-01"
               data-reveal-value="20px"
               data-reveal-delay="800"
-            >
-              <Image
-                className="has-shadow"
-                src={require("./../../assets/images/hero-image.png")}
-                alt="Hero"
-                width={896}
-                height={504}
-              />
-            </div>
+            ></div>
           </div>
         </div>
       </section>
