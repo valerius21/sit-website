@@ -50,7 +50,11 @@ class Roadmap extends React.Component {
 
     const timelineElements = () =>
       talks.map((t) => (
-        <TimelineItem title={`${t.date}, ${t.time} - Raum: ${t.room}`}>
+        <TimelineItem
+          title={`${new Date(t.date).toDateString()}, ${t.time} - Raum: ${
+            t.room
+          }`}
+        >
           {t.title}
           <p
             style={{ fontStyle: "italic", fontWeight: "200", fontSize: "16px" }}
