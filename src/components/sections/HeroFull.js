@@ -2,6 +2,7 @@ import React from "react";
 import classNames from "classnames";
 import { SectionProps } from "../../utils/SectionProps";
 import Button from "../elements/Button";
+import Settings from "../../settings/main.json";
 
 const propTypes = {
   ...SectionProps.types,
@@ -48,17 +49,17 @@ class HeroFull extends React.Component {
                 className="mt-0 mb-16 reveal-from-bottom"
                 data-reveal-delay="200"
               >
-                sIT2020
+                {`sIT${Settings.year}`}
               </h1>
               <div className="container-xs">
                 <p
                   className="m-0 mb-32 reveal-from-bottom"
                   data-reveal-delay="400"
                 >
-                  Vom **DATUM** 2020 werden zum 16. Mal die studentischen
-                  Informatiktage (sIT2020) in Göttingen stattfinden. Als
+                  {`Vom ${Settings.date} ${Settings.year} werden zum ${Settings.iteration}. Mal die studentischen
+                  Informatiktage (sIT${Settings.year}) in Göttingen stattfinden. Als
                   Rahmenthema für die Firmenvorträge haben wir uns dieses Jahr
-                  für **THEMA** entschieden.
+                  für ${Settings.topic} entschieden.`}
                 </p>
                 <div className="reveal-from-bottom" data-reveal-delay="600">
                   <Button tag="a" color="primary" wideMobile href="#">

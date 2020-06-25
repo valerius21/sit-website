@@ -41,8 +41,9 @@ class Footer extends React.Component {
             <div className="footer-bottom space-between text-xxs invert-order-desktop">
               <FooterNav />
               <div className="footer-copyright">
-                &copy; 2020 Fachgruppe Informatik (Georg-August-Universität
-                Göttingen), all rights reserved
+                &copy;{" "}
+                {`${new Date().getFullYear()} VoidCode u. Fachgruppe Informatik (Georg-August-Universität
+                Göttingen), all rights reserved.`}
               </div>
             </div>
           </div>

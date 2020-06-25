@@ -40,7 +40,7 @@ class Footer extends React.Component {
                   <Logo className="mb-16" />
                   <div className="footer-copyright">
                     &copy; Fachgruppe Informatik (Georg-August-Universität
-                    Göttingen), all rights reserved
+                    Göttingen), all rights reserved.
                   </div>
                 </div>
                 <div className="footer-block">
