@@ -62,7 +62,7 @@ class HeroFull extends React.Component {
                   für ${Settings.topic} entschieden.`}
                 </p>
                 <div className="reveal-from-bottom" data-reveal-delay="600">
-                  <Button tag="a" color="primary" wideMobile href="#">
+                  <Button tag="a" color="primary" wideMobile href="/">
                     Timeline
                   </Button>
                 </div>

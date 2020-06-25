@@ -195,7 +195,7 @@ class Pricing extends React.Component {
                     </div>
                   </div>
                   <div className="pricing-item-cta mb-8">
-                    <Button tag="a" color="primary" wide href="#">
+                    <Button tag="a" color="primary" wide href="/">
                       Start free trial
                     </Button>
                   </div>
@@ -246,7 +246,7 @@ class Pricing extends React.Component {
                     </div>
                   </div>
                   <div className="pricing-item-cta mb-8">
-                    <Button tag="a" color="primary" wide href="#">
+                    <Button tag="a" color="primary" wide href="/">
                       Start free trial
                     </Button>
                   </div>
@@ -299,7 +299,7 @@ class Pricing extends React.Component {
                     </div>
                   </div>
                   <div className="pricing-item-cta mb-8">
-                    <Button tag="a" color="primary" wide href="#">
+                    <Button tag="a" color="primary" wide href="/">
                       Start free trial
                     </Button>
                   </div>

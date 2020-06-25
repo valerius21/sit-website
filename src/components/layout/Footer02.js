@@ -47,16 +47,16 @@ class Footer extends React.Component {
                   <div className="footer-block-title">Company</div>
                   <ul className="list-reset mb-0">
                     <li>
-                      <a href="#">Dummy text used</a>
+                      <a href="/">Dummy text used</a>
                     </li>
                     <li>
-                      <a href="#">The purpose of lorem</a>
+                      <a href="/">The purpose of lorem</a>
                     </li>
                     <li>
-                      <a href="#">Filler text can be very useful</a>
+                      <a href="/">Filler text can be very useful</a>
                     </li>
                     <li>
-                      <a href="#">Be on design</a>
+                      <a href="/">Be on design</a>
                     </li>
                   </ul>
                 </div>
@@ -64,16 +64,16 @@ class Footer extends React.Component {
                   <div className="footer-block-title">Uses cases</div>
                   <ul className="list-reset mb-0">
                     <li>
-                      <a href="#">Consectetur adipiscing</a>
+                      <a href="/">Consectetur adipiscing</a>
                     </li>
                     <li>
-                      <a href="#">Lorem Ipsum is place</a>
+                      <a href="/">Lorem Ipsum is place</a>
                     </li>
                     <li>
-                      <a href="#">Excepteur sint</a>
+                      <a href="/">Excepteur sint</a>
                     </li>
                     <li>
-                      <a href="#">Occaecat cupidatat</a>
+                      <a href="/">Occaecat cupidatat</a>
                     </li>
                   </ul>
                 </div>
@@ -81,16 +81,16 @@ class Footer extends React.Component {
                   <div className="footer-block-title">Docs</div>
                   <ul className="list-reset mb-0">
                     <li>
-                      <a href="#">The purpose of lorem</a>
+                      <a href="/">The purpose of lorem</a>
                     </li>
                     <li>
-                      <a href="#">Dummy text used</a>
+                      <a href="/">Dummy text used</a>
                     </li>
                     <li>
-                      <a href="#">Excepteur sint</a>
+                      <a href="/">Excepteur sint</a>
                     </li>
                     <li>
-                      <a href="#">Occaecat cupidatat</a>
+                      <a href="/">Occaecat cupidatat</a>
                     </li>
                   </ul>
                 </div>

@@ -12,7 +12,7 @@ const FooterSocial = ({ className, ...props }) => {
             Icon from
             https://www.flaticon.com/de/kostenloses-icon/telegramm_1216847
           </p>
-          <a href="#">
+          <a href="/">
             <svg
               height="16pt"
               viewBox="0 -24 512 512"
