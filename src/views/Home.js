@@ -13,7 +13,7 @@ import Cta from "../components/sections/Cta";
 import Image from "../components/elements/Image";
 import Modal from "../components/elements/Modal";
 
-// timeline
+// Lin
 import Events from "../components/sections/Talks";
 
 class Home extends React.Component {
@@ -31,48 +31,12 @@ class Home extends React.Component {
   };
 
   render() {
-    const genericSection01Header = {
-      title:
-        "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit",
-    };
-
     return (
       <React.Fragment>
-        <HeroFull className="illustration-section-01" />
+        <HeroFull className="illustration-section-01" timelineLink={"events"} />
         <Clients topDivider bottomDivider />
         <FeaturesTiles />
-        <Events topDivider />
-        <GenericSection topDivider className="center-content">
-          <SectionHeader
-            data={genericSection01Header}
-            className="reveal-from-bottom"
-          />
-          <div className="reveal-from-bottom">
-            <a
-              data-video="https://player.vimeo.com/video/174002812"
-              href="#0"
-              aria-controls="video-modal"
-              onClick={this.openModal}
-            >
-              <Image
-                src={require("./../assets/images/video-placeholder.svg")}
-                alt="Video"
-                width={712}
-                height={400}
-              />
-            </a>
-          </div>
-          <Modal
-            id="video-modal"
-            show={this.state.videoModalActive}
-            handleClose={this.closeModal}
-            video="https://player.vimeo.com/video/174002812"
-            videoTag="iframe"
-          />
-        </GenericSection>
-        <FeaturesSplit invertMobile topDivider imageFill />
-        <Pricing topDivider pricingSwitcher />
-        <Cta split />
+        <Events id="events" topDivider />
       </React.Fragment>
     );
   }

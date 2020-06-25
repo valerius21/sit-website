@@ -22,6 +22,7 @@ class HeroFull extends React.Component {
       bottomDivider,
       hasBgColor,
       invertColor,
+      timelineLink,
       ...props
     } = this.props;
 
@@ -49,8 +50,12 @@ class HeroFull extends React.Component {
                 className="mt-0 mb-16 reveal-from-bottom"
                 data-reveal-delay="200"
               >
-                {`sIT${Settings.year}`}
+                {`sIT ${Settings.year}`}
               </h1>
+              <h4
+                className="mt-0 mb-16 reveal-from-bottom"
+                data-reveal-delay="300"
+              >{`studentische Informatiktage`}</h4>
               <div className="container-xs">
                 <p
                   className="m-0 mb-32 reveal-from-bottom"
@@ -62,7 +67,12 @@ class HeroFull extends React.Component {
                   für ${Settings.topic} entschieden.`}
                 </p>
                 <div className="reveal-from-bottom" data-reveal-delay="600">
-                  <Button tag="a" color="primary" wideMobile href="/">
+                  <Button
+                    tag="a"
+                    color="primary"
+                    wideMobile
+                    href={`#${timelineLink}`}
+                  >
                     Timeline
                   </Button>
                 </div>
