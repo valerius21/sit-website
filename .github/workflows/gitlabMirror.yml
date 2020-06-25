@@ -12,4 +12,4 @@ jobs:
         with:
           REMOTE: "https://gitlab.gwdg.de/fginfo/sit-website.git"
           GIT_USERNAME: ${{ secrets.GIT_USERNAME }}
-          GIT_SSH_PRIVATE_KEY: ${{ secrets.GIT_PASSWORD }}
+          GIT_PASSWORD: ${{ secrets.GIT_PASSWORD }}
