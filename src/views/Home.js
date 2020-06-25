@@ -37,6 +37,38 @@ class Home extends React.Component {
         <Clients topDivider bottomDivider />
         <FeaturesTiles />
         <Events id="events" topDivider />
+        <GenericSection topDivider>
+          <div className="container-xs">
+            <SectionHeader
+              data={{ title: "Anfahrt", paragrapth: "" }}
+              className="center-content"
+            />
+
+            <div className="center-content">
+              <iframe
+                title="Anfahrt sIT"
+                frameborder="0"
+                scrolling="no"
+                marginheight="0"
+                marginwidth="0"
+                src="https://www.openstreetmap.org/export/embed.html?bbox=9.945070445537569%2C51.554946200930516%2C9.950322210788729%2C51.556919047912494&amp;layer=mapnik"
+                style={{ width: "100%", height: 400 }}
+              ></iframe>
+              <br />
+              <small>
+                <a href="https://www.openstreetmap.org/#map=19/51.55593/9.94770">
+                  Größere Karte anzeigen
+                </a>
+              </small>
+              <p>
+                Institut für Informatik
+                <br />
+                Goldschmidtstraße 7 <br />
+                37077 Göttingen <br />
+              </p>
+            </div>
+          </div>
+        </GenericSection>
       </React.Fragment>
     );
   }
