@@ -1,0 +1,15 @@
+name: Sync with GWDG GitLab
+
+on: [push]
+
+jobs:
+  build:
+    name: Mirror
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: spyoungtech/mirror-action@master
+    with:
+      REMOTE: "https://gitlab.gwdg.de/fginfo/sit-website.git"
+      GIT_USERNAME: v.mattfeld
+      GIT_SSH_PRIVATE_KEY: ${{ secrets.GIT_SSH_KEY }}
