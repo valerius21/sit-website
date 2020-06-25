@@ -58,7 +58,7 @@ class Roadmap extends React.Component {
           {t.title}
           <p
             style={{ fontStyle: "italic", fontWeight: "200", fontSize: "16px" }}
-            className="timeline-item-content p m-0 reveal-from-side invert-logo"
+            className="timeline-item-content p m-0 reveal-from-side"
           >{`"${t.desciption}" - ${t.author}`}</p>
         </TimelineItem>
       ));
