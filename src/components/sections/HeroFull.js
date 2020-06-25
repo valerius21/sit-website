@@ -2,7 +2,7 @@ import React from "react";
 import classNames from "classnames";
 import { SectionProps } from "../../utils/SectionProps";
 import Button from "../elements/Button";
-import Image from "../elements/Image";
+import Settings from "../../settings/main.json";
 
 const propTypes = {
   ...SectionProps.types,
@@ -22,6 +22,7 @@ class HeroFull extends React.Component {
       bottomDivider,
       hasBgColor,
       invertColor,
+      timelineLink,
       ...props
     } = this.props;
 
@@ -49,19 +50,30 @@ class HeroFull extends React.Component {
                 className="mt-0 mb-16 reveal-from-bottom"
                 data-reveal-delay="200"
               >
-                Landing...
+                {`sIT ${Settings.year}`}
               </h1>
+              <h4
+                className="mt-0 mb-16 reveal-from-bottom"
+                data-reveal-delay="300"
+              >{`studentische Informatiktage`}</h4>
               <div className="container-xs">
                 <p
                   className="m-0 mb-32 reveal-from-bottom"
                   data-reveal-delay="400"
                 >
-                  Our landing page template works on all devices, so you only
-                  have to set it up once, and get beautiful results forever.
+                  {`Vom ${Settings.date} ${Settings.year} werden zum ${Settings.iteration}. Mal die studentischen
+                  Informatiktage (sIT${Settings.year}) in Göttingen stattfinden. Als
+                  Rahmenthema für die Firmenvorträge haben wir uns dieses Jahr
+                  für ${Settings.topic} entschieden.`}
                 </p>
                 <div className="reveal-from-bottom" data-reveal-delay="600">
-                  <Button tag="a" color="primary" wideMobile href="#">
-                    Pricing and plans
+                  <Button
+                    tag="a"
+                    color="primary"
+                    wideMobile
+                    href={`#${timelineLink}`}
+                  >
+                    Timeline
                   </Button>
                 </div>
               </div>
@@ -70,15 +82,7 @@ class HeroFull extends React.Component {
               className="hero-figure reveal-from-bottom illustration-element-01"
               data-reveal-value="20px"
               data-reveal-delay="800"
-            >
-              <Image
-                className="has-shadow"
-                src={require("./../../assets/images/hero-image.png")}
-                alt="Hero"
-                width={896}
-                height={504}
-              />
-            </div>
+            ></div>
           </div>
         </div>
       </section>

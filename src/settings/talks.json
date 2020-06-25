@@ -1,0 +1,49 @@
+{
+  "talks": [
+    {
+      "title": "Cyberpunks in 2020",
+      "date": "2020-09-01",
+      "time": "15:00",
+      "room": "MN 07",
+      "link": "http://localhost/",
+      "author": "Keanu Reeves",
+      "desciption": "No, you are amazing!"
+    },
+    {
+      "title": "How I got famous with a project",
+      "date": "2020-09-03",
+      "time": "11:00",
+      "room": "MN 07",
+      "link": "http://localhost/",
+      "author": "Linus T.",
+      "desciption": "How to pick up someone with BASIC."
+    },
+    {
+      "title": "New Rules",
+      "date": "2020-09-04",
+      "time": "19:00",
+      "room": "MN 07",
+      "link": "http://localhost/",
+      "author": "Dua L.",
+      "desciption": "I like to count all my new rules."
+    },
+    {
+      "title": "Fachgruppenarbeit macht Spass!",
+      "date": "2020-09-05",
+      "time": "12:00",
+      "room": "CIP Pool",
+      "link": "http://localhost/",
+      "author": "aktive Fachgruppe Informatik",
+      "desciption": "Liebe Studierende, [...]"
+    },
+    {
+      "title": "Super TUX Kart Turnier",
+      "date": "2020-09-05",
+      "time": "20:00",
+      "room": "CIP Pool, oder zu Hause",
+      "link": "http://localhost/",
+      "author": "aktive Fachgruppe Informatik",
+      "desciption": "Nein, es handelt sich nicht um Cracker."
+    }
+  ]
+}

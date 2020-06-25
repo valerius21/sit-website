@@ -1,38 +1,30 @@
-import React from 'react';
-import classNames from 'classnames';
-import { Link } from 'react-router-dom';
+import React from "react";
+import classNames from "classnames";
 
-const FooterNav = ({
-  className,
-  ...props
-}) => {
-
-  const classes = classNames(
-    'footer-nav',
-    className
-  );
+const FooterNav = ({ className, ...props }) => {
+  const classes = classNames("footer-nav", className);
 
   return (
-    <nav
-      {...props}
-      className={classes}
-    >
+    <nav {...props} className={classes}>
       <ul className="list-reset">
         <li>
-          <Link to="/contact/">Contact</Link>
+          <a href="mailto:fachgruppe@informatik.uni-goettingen.de?subject=%5BSIT2020%5D%5BContact%5D">
+            Contact
+          </a>
         </li>
         <li>
-          <Link to="/about-us/">About us</Link>
+          <a href="mailto:fachgruppe@informatik.uni-goettingen.de?subject=%5BSIT2020%5D%5BTalk%5D">
+            Submit talk request
+          </a>
         </li>
         <li>
-          <Link to="/faqs/">FAQ's</Link>
-        </li>
-        <li>
-          <Link to="/support/">Support</Link>
+          <a href="https://fsr.math-cs.uni-goettingen.de/fachgruppe-informatik/">
+            About us
+          </a>
         </li>
       </ul>
     </nav>
   );
-}
+};
 
 export default FooterNav;
