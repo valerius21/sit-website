@@ -29,6 +29,18 @@ class Home extends React.Component {
         <Clients topDivider bottomDivider />
         {/* <FeaturesTiles /> */}
         <Events id="events" topDivider />
+        <GenericSection topDivider>
+          <div className="container-xs">
+            <SectionHeader
+              data={{
+                title: "Was sind die sIT?",
+                paragraph:
+                  "Die studentischen Informatiktage (sIT), sind ein von der Fachgruppe ausgerichtetes Wochenende für alle Informatik-Interessierten. Dort halten verschiedenste Personen Vorträge aus allen Richtungen der Informatik und darüber hinaus. Es besteht weiterhin meistens die Möglichkeit, spannende Workshops zu besuchen. Wichtige Kontakte zu zahlreichen Unternehmen aus dem Interessengebiet Informatik können geknüpft werden. Dies alles wird durch ein lockeres Umfeld mit angemessenem Rahmenprogramm gefördert.",
+              }}
+              className="center-content"
+            />
+          </div>
+        </GenericSection>
         <GenericSection id="map" topDivider>
           <div className="container-xs">
             <SectionHeader
