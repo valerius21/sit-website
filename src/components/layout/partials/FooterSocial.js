@@ -1,8 +1,10 @@
 import React from "react";
 import classNames from "classnames";
+import { social } from "../../../settings/main.json";
 
 const FooterSocial = ({ className, ...props }) => {
   const classes = classNames("footer-social", className);
+  const { telegram, instagram, facebook, twitter } = social;
 
   return (
     <div {...props} className={classes}>
@@ -12,7 +14,7 @@ const FooterSocial = ({ className, ...props }) => {
             Icon from
             https://www.flaticon.com/de/kostenloses-icon/telegramm_1216847
           </p>
-          <a href="/">
+          <a href={telegram}>
             <svg
               height="16pt"
               viewBox="0 -24 512 512"
@@ -25,7 +27,7 @@ const FooterSocial = ({ className, ...props }) => {
           </a>
         </li>
         <li>
-          <a href="https://www.facebook.com/fginfogoe/">
+          <a href={facebook}>
             <svg
               width="16"
               height="16"
@@ -38,7 +40,7 @@ const FooterSocial = ({ className, ...props }) => {
           </a>
         </li>
         <li>
-          <a href="https://twitter.com/fsr_cs">
+          <a href={twitter}>
             <svg
               width="16"
               height="16"
@@ -51,7 +53,7 @@ const FooterSocial = ({ className, ...props }) => {
           </a>
         </li>
         <li>
-          <a href="https://www.instagram.com/fsrmathcs.goe/">
+          <a href={instagram}>
             <svg
               width="16"
               height="16"

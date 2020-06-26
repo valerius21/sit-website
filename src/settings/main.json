@@ -2,5 +2,11 @@
   "year": 2020,
   "iteration": 16,
   "date": "03. - 05. September",
-  "topic": "Kekse"
+  "topic": "Kekse",
+  "social": {
+    "telegram": "/",
+    "instagram": "https://www.instagram.com/fsrmathcs.goe/",
+    "facebook": "https://www.facebook.com/fginfogoe/",
+    "twitter": "https://twitter.com/fsr_cs"
+  }
 }
