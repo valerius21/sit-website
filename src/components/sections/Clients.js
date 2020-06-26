@@ -54,6 +54,30 @@ class Clients extends React.Component {
                   height={24}
                 />
               </li>
+              <li>
+                <Image
+                  src={require("./../../assets/images/clients-00.svg")}
+                  alt="Client"
+                  width={124}
+                  height={24}
+                />
+              </li>
+              <li>
+                <Image
+                  src={require("./../../assets/images/clients-00.svg")}
+                  alt="Client"
+                  width={124}
+                  height={24}
+                />
+              </li>
+              <li>
+                <Image
+                  src={require("./../../assets/images/clients-00.svg")}
+                  alt="Client"
+                  width={124}
+                  height={24}
+                />
+              </li>
             </ul>
           </div>
         </div>
