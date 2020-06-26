@@ -124,14 +124,14 @@ class Header extends React.Component {
                       )}
                     >
                       <li>
-                        <a href="/#map" onClick={this.closeMenu}>
+                        <Link to="/#map" onClick={this.closeMenu}>
                           Anfahrt
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <Link to="/datenschutz/" onClick={this.closesMenu}>
+                        <a href="/datenschutz/" onClick={this.closesMenu}>
                           Datenschutz
-                        </Link>
+                        </a>
                       </li>
                       <li>
                         {" "}
