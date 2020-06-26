@@ -3,7 +3,8 @@
     {
       "title": "Cyberpunks in 2020",
       "date": "2020-09-01",
-      "time": "15:00",
+      "start": "15:00",
+      "end": "18:00",
       "room": "MN 07",
       "link": "http://localhost/",
       "author": "Keanu Reeves",
@@ -21,7 +22,8 @@
     {
       "title": "New Rules",
       "date": "2020-09-04",
-      "time": "19:00",
+      "start": "19:00",
+      "end": "20:00",
       "room": "MN 07",
       "link": "http://localhost/",
       "author": "Dua L.",
@@ -30,7 +32,8 @@
     {
       "title": "Fachgruppenarbeit macht Spass!",
       "date": "2020-09-05",
-      "time": "12:00",
+      "start": "12:00",
+      "end": "15:00",
       "room": "CIP Pool",
       "link": "http://localhost/",
       "author": "aktive Fachgruppe Informatik",
@@ -39,7 +42,8 @@
     {
       "title": "Super TUX Kart Turnier",
       "date": "2020-09-05",
-      "time": "20:00",
+      "start": "20:00",
+      "end": "22:00",
       "room": "CIP Pool, oder zu Hause",
       "link": "http://localhost/",
       "author": "aktive Fachgruppe Informatik",
