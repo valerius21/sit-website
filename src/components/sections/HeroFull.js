@@ -64,7 +64,9 @@ class HeroFull extends React.Component {
                   {`Vom ${Settings.date} ${Settings.year} werden zum ${Settings.iteration}. Mal die studentischen
                   Informatiktage (sIT${Settings.year}) in Göttingen stattfinden. Als
                   Rahmenthema für die Firmenvorträge haben wir uns dieses Jahr
-                  für ${Settings.topic} entschieden.`}
+                  für `}
+                  <b>{`${Settings.topic}`}</b>
+                  {` entschieden.`}
                 </p>
                 <div className="reveal-from-bottom" data-reveal-delay="600">
                   <Button
