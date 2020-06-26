@@ -51,10 +51,10 @@ class Home extends React.Component {
             <div className="center-content">
               <iframe
                 title="Anfahrt sIT"
-                frameborder="0"
+                frameBorder="0"
                 scrolling="no"
-                marginheight="0"
-                marginwidth="0"
+                marginHeight="0"
+                marginWidth="0"
                 src="https://www.openstreetmap.org/export/embed.html?bbox=9.945070445537569%2C51.554946200930516%2C9.950322210788729%2C51.556919047912494&amp;layer=mapnik"
                 style={{ width: "100%", height: 400 }}
               ></iframe>

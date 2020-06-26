@@ -49,8 +49,9 @@ class Roadmap extends React.Component {
     };
 
     const timelineElements = () =>
-      talks.map((t) => (
+      talks.map((t, i) => (
         <TimelineItem
+          key={i}
           title={`${new Date(t.date).toDateString()}, ${t.start} - Raum: ${
             t.room
           }`}
