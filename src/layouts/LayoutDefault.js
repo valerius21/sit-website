@@ -4,7 +4,7 @@ import Footer from "../components/layout/Footer";
 
 const LayoutDefault = ({ children }) => (
   <React.Fragment>
-    <Header hideNav={true} navPosition="right" className="reveal-from-bottom" />
+    <Header navPosition="right" hideSignin className="reveal-from-bottom" />
     <main className="site-content">{children}</main>
     <Footer />
   </React.Fragment>

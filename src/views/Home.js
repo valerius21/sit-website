@@ -35,9 +35,9 @@ class Home extends React.Component {
       <React.Fragment>
         <HeroFull className="illustration-section-01" timelineLink={"events"} />
         <Clients topDivider bottomDivider />
-        <FeaturesTiles />
+        {/* <FeaturesTiles /> */}
         <Events id="events" topDivider />
-        <GenericSection topDivider>
+        <GenericSection id="map" topDivider>
           <div className="container-xs">
             <SectionHeader
               data={{ title: "Anfahrt", paragrapth: "" }}

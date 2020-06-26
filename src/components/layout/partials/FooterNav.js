@@ -9,18 +9,21 @@ const FooterNav = ({ className, ...props }) => {
       <ul className="list-reset">
         <li>
           <a href="mailto:fachgruppe@informatik.uni-goettingen.de?subject=%5BSIT2020%5D%5BContact%5D">
-            Contact
+            Kontakt
           </a>
         </li>
         <li>
           <a href="mailto:fachgruppe@informatik.uni-goettingen.de?subject=%5BSIT2020%5D%5BTalk%5D">
-            Submit talk request
+            Talk anfragen
           </a>
         </li>
         <li>
           <a href="https://fsr.math-cs.uni-goettingen.de/fachgruppe-informatik/">
-            About us
+            Über uns
           </a>
+        </li>
+        <li>
+          <a href="/impressum">Impressum</a>
         </li>
       </ul>
     </nav>

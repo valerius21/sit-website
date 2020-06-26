@@ -5,14 +5,10 @@ import ScrollReveal from "./utils/ScrollReveal";
 
 // Layouts
 import LayoutDefault from "./layouts/LayoutDefault";
-import LayoutAlternative from "./layouts/LayoutAlternative";
-import LayoutSignin from "./layouts/LayoutSignin";
-
 // Views
 import Home from "./views/Home";
-import Secondary from "./views/Secondary";
-import Login from "./views/Login";
-import Signup from "./views/Signup";
+import Datenschutz from "./views/Datenschutz";
+import Impressum from "./views/Impressum";
 
 class App extends React.Component {
   componentDidMount() {
@@ -36,21 +32,15 @@ class App extends React.Component {
             <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
             <AppRoute
               exact
-              path="/secondary"
-              component={Secondary}
-              layout={LayoutAlternative}
+              path="/impressum/"
+              component={Impressum}
+              layout={LayoutDefault}
             />
             <AppRoute
               exact
-              path="/login"
-              component={Login}
-              layout={LayoutSignin}
-            />
-            <AppRoute
-              exact
-              path="/signup"
-              component={Signup}
-              layout={LayoutSignin}
+              path="/datenschutz/"
+              component={Datenschutz}
+              layout={LayoutDefault}
             />
           </Switch>
         )}
