@@ -11,9 +11,10 @@
       "desciption": "No, you are amazing!"
     },
     {
-      "title": "How I got famous with a project",
+      "title": "Kernelpower",
       "date": "2020-09-03",
-      "time": "11:00",
+      "start": "11:00",
+      "end": "12:15",
       "room": "MN 07",
       "link": "http://localhost/",
       "author": "Linus T.",

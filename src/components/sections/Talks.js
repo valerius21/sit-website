@@ -15,7 +15,7 @@ const defaultProps = {
   ...SectionProps.defaults,
 };
 
-class Roadmap extends React.Component {
+class Talks extends React.Component {
   render() {
     const {
       className,
@@ -48,28 +48,79 @@ class Roadmap extends React.Component {
       paragraph: `Eine Übersicht zu allen an der sIT${MainSettings.year} stattfindenen Events.`,
     };
 
-    const timelineElements = () =>
-      talks.map((t, i) => (
+    const createDate = (date, time) => {
+      let d = new Date(date);
+      const [hours, minutes] = time.split(":");
+      d.setHours(hours);
+      d.setMinutes(minutes);
+
+      return d;
+    };
+
+    const displayEventAccordingToCurrentTime = (talk, index) => {
+      const { date, start, end, room, title, desciption, author } = talk;
+      const currentTime = new Date();
+      const eventTime = new Date(date);
+      const eventStart = createDate(date, start);
+      const eventEnd = createDate(date, end);
+      console.log(title, eventStart, eventEnd);
+
+      const isActive = currentTime <= eventEnd && currentTime >= eventStart;
+      const isOver = currentTime > eventEnd;
+      console.log(currentTime);
+      console.log(isActive);
+      console.log(isOver);
+
+      if (isOver) return;
+
+      if (isActive) {
+        return (
+          <TimelineItem
+            key={index}
+            title={`${eventTime.toDateString()}, ${start} - Raum: ${room}`}
+          >
+            <div style={{ color: "#98ff98" }}>Aktiv: {title}</div>
+            <p
+              style={{
+                fontStyle: "italic",
+                fontWeight: "200",
+                fontSize: "16px",
+              }}
+              className="timeline-item-content p m-0 reveal-from-side"
+            >{`"${desciption}" - ${author}`}</p>
+          </TimelineItem>
+        );
+      }
+
+      return (
         <TimelineItem
-          key={i}
-          title={`${new Date(t.date).toDateString()}, ${t.start} - Raum: ${
-            t.room
-          }`}
+          key={index}
+          title={`${eventTime.toDateString()}, ${start} - Raum: ${room}`}
         >
-          {t.title}
+          {title}
           <p
             style={{ fontStyle: "italic", fontWeight: "200", fontSize: "16px" }}
             className="timeline-item-content p m-0 reveal-from-side"
-          >{`"${t.desciption}" - ${t.author}`}</p>
+          >{`"${desciption}" - ${author}`}</p>
         </TimelineItem>
-      ));
+      );
+    };
 
+    const timelineElements = () =>
+      talks.map((t, i) => displayEventAccordingToCurrentTime(t, i));
     return (
       <section {...props} className={outerClasses}>
         <div className="container">
           <div className={innerClasses}>
             <SectionHeader data={sectionHeader} className="center-content" />
-            <Timeline>{timelineElements()}</Timeline>
+            {(() => {
+              if (timelineElements().length > 0) {
+                return <Timeline>{timelineElements()}</Timeline>;
+              } else {
+                sectionHeader.paragraph =
+                  "Bisher sind keine Events eingetragen.";
+              }
+            })()}
           </div>
         </div>
       </section>
@@ -77,7 +128,7 @@ class Roadmap extends React.Component {
   }
 }
 
-Roadmap.propTypes = propTypes;
-Roadmap.defaultProps = defaultProps;
+Talks.propTypes = propTypes;
+Talks.defaultProps = defaultProps;
 
-export default Roadmap;
+export default Talks;
