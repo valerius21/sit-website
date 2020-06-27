@@ -1,6 +1,6 @@
 # sIT Website - FG Informatik (GAU Göttingen)
 
-![Sync with GWDG GitLab](https://github.com/valerius21/sit-website/workflows/Sync%20with%20GWDG%20GitLab/badge.svg)
+[![Sync with GWDG GitLab](https://github.com/valerius21/sit-website/workflows/Sync%20with%20GWDG%20GitLab/badge.svg)](https://gitlab.gwdg.de/fginfo/sit-website)
 
 # Was sind die sIT?
 
