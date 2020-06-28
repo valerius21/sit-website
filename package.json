@@ -1,7 +1,9 @@
 {
   "name": "sit-website",
-  "version": "0.1.0",
+  "version": "0.0.1-alpha",
   "private": true,
+  "repository": "github:valerius21/sit-website",
+  "homepage": "https://sit2020.xyz",
   "dependencies": {
     "classnames": "^2.2.6",
     "lodash": "^4.17.15",
