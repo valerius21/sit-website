@@ -1,5 +1,6 @@
 import React from "react";
 import classNames from "classnames";
+import { RoughNotation } from "react-rough-notation";
 import { SectionProps } from "../../utils/SectionProps";
 import SectionHeader from "./partials/SectionHeader";
 import Timeline from "../elements/Timeline";
@@ -59,19 +60,37 @@ class Talks extends React.Component {
 
     const displayEventAccordingToCurrentTime = (talk, index) => {
       const { date, start, end, room, title, desciption, author } = talk;
-      const currentTime = new Date();
+      const currentTime =
+        process.env.NODE_ENV === "development"
+          ? new Date("2020-09-04 19:05")
+          : new Date();
       const eventTime = new Date(date);
       const eventStart = createDate(date, start);
       const eventEnd = createDate(date, end);
-      console.log(title, eventStart, eventEnd);
 
       const isActive = currentTime <= eventEnd && currentTime >= eventStart;
       const isOver = currentTime > eventEnd;
-      console.log(currentTime);
-      console.log(isActive);
-      console.log(isOver);
 
-      if (isOver) return;
+      if (isOver) {
+        return (
+          <TimelineItem
+            key={index}
+            title={`${eventTime.toDateString()}, ${start} - Raum: ${room}`}
+          >
+            <RoughNotation show type="crossed-off" color="magenta">
+              <div>{title}</div>
+              <p
+                style={{
+                  fontStyle: "italic",
+                  fontWeight: "200",
+                  fontSize: "16px",
+                }}
+                className="timeline-item-content p m-0 reveal-from-side"
+              >{`"${desciption}" - ${author}`}</p>
+            </RoughNotation>
+          </TimelineItem>
+        );
+      }
 
       if (isActive) {
         return (
@@ -79,15 +98,17 @@ class Talks extends React.Component {
             key={index}
             title={`${eventTime.toDateString()}, ${start} - Raum: ${room}`}
           >
-            <div style={{ color: "#98ff98" }}>Aktiv: {title}</div>
-            <p
-              style={{
-                fontStyle: "italic",
-                fontWeight: "200",
-                fontSize: "16px",
-              }}
-              className="timeline-item-content p m-0 reveal-from-side"
-            >{`"${desciption}" - ${author}`}</p>
+            <RoughNotation show type="box" color="#98ff98">
+              <div>{title}</div>
+              <p
+                style={{
+                  fontStyle: "italic",
+                  fontWeight: "200",
+                  fontSize: "16px",
+                }}
+                className="timeline-item-content p m-0 reveal-from-side"
+              >{`"${desciption}" - ${author}`}</p>
+            </RoughNotation>
           </TimelineItem>
         );
       }
@@ -99,7 +120,11 @@ class Talks extends React.Component {
         >
           {title}
           <p
-            style={{ fontStyle: "italic", fontWeight: "200", fontSize: "16px" }}
+            style={{
+              fontStyle: "italic",
+              fontWeight: "200",
+              fontSize: "16px",
+            }}
             className="timeline-item-content p m-0 reveal-from-side"
           >{`"${desciption}" - ${author}`}</p>
         </TimelineItem>

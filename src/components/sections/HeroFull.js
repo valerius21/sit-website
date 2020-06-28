@@ -1,5 +1,6 @@
 import React from "react";
 import classNames from "classnames";
+import { RoughNotation } from "react-rough-notation";
 import { SectionProps } from "../../utils/SectionProps";
 import Button from "../elements/Button";
 import Settings from "../../settings/main.json";
@@ -61,11 +62,22 @@ class HeroFull extends React.Component {
                   className="m-0 mb-32 reveal-from-bottom"
                   data-reveal-delay="400"
                 >
-                  {`Vom ${Settings.date} ${Settings.year} werden zum ${Settings.iteration}. Mal die studentischen
+                  {`Vom `}
+                  <RoughNotation
+                    type="highlight"
+                    color="yellow"
+                    style={{ color: "black" }}
+                    show
+                  >
+                    {`${Settings.date} ${Settings.year}`}
+                  </RoughNotation>
+                  {` werden zum ${Settings.iteration}. Mal die studentischen
                   Informatiktage (sIT${Settings.year}) in Göttingen stattfinden. Als
                   Rahmenthema für die Firmenvorträge haben wir uns dieses Jahr
                   für `}
-                  <b>{`${Settings.topic}`}</b>
+                  <RoughNotation type="box" show color="#98ff98" padding={2}>
+                    {`${Settings.topic}`}
+                  </RoughNotation>
                   {` entschieden.`}
                 </p>
                 <div className="reveal-from-bottom" data-reveal-delay="600">
@@ -75,7 +87,7 @@ class HeroFull extends React.Component {
                     wideMobile
                     href={`#${timelineLink}`}
                   >
-                    Timeline
+                    Was sind die sIT?
                   </Button>
                 </div>
               </div>

@@ -25,11 +25,11 @@ class Home extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <HeroFull className="illustration-section-01" timelineLink={"events"} />
+        <HeroFull className="illustration-section-01" timelineLink={"about"} />
         <Clients topDivider bottomDivider />
         {/* <FeaturesTiles /> */}
         <Events id="events" topDivider />
-        <GenericSection topDivider>
+        <GenericSection id="about" topDivider>
           <div className="container-xs">
             <SectionHeader
               data={{
