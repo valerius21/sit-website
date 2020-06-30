@@ -10,6 +10,6 @@ jobs:
       - uses: actions/checkout@v1
       - uses: spyoungtech/mirror-action@master
         with:
-          REMOTE: "https://gitlab.gwdg.de/fginfo/sit-website.git"
+          REMOTE: "https://gitlab.gwdg.de/GAUMI-fginfo/sit-website.git"
           GIT_USERNAME: ${{ secrets.GIT_USERNAME }}
           GIT_PASSWORD: ${{ secrets.GIT_PASSWORD }}
