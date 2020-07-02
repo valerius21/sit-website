@@ -129,6 +129,11 @@ class Header extends React.Component {
                         </a>
                       </li>
                       <li>
+                        <a href="/#events" onClick={this.closeMenu}>
+                          Events
+                        </a>
+                      </li>
+                      <li>
                         <a href="/datenschutz/" onClick={this.closesMenu}>
                           Datenschutz
                         </a>

@@ -47,10 +47,10 @@ class Clients extends React.Component {
             <ul className="list-reset">
               <li>
                 <Image
-                  src={require("./../../assets/images/fsr_logo.svg")}
-                  alt="Fachschaft Informatik, Mathematik u. Data Science Göttingen"
+                  src={require("./../../assets/images/fg-plain.svg")}
+                  alt="Fachgruppe Informatik - GA-Universität Göttingen"
                   className="invert-logo"
-                  width={124}
+                  width={250}
                   height={24}
                 />
               </li>
