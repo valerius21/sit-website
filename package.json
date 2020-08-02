@@ -6,7 +6,7 @@
   "homepage": "https://sit2020.xyz",
   "dependencies": {
     "classnames": "^2.2.6",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "node-sass": "^4.12.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
