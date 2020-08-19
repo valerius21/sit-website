@@ -1,54 +1,114 @@
 {
   "talks": [
     {
-      "title": "Cyberpunks in 2020",
-      "date": "2020-09-01",
-      "start": "15:00",
-      "end": "18:00",
-      "room": "MN 07",
+      "title": "Vom Sensor bis zur Datenanalyse",
+      "date": "2020-09-04",
+      "start": "14:00",
+      "end": "15:00",
+      "room": "MN 08",
       "link": "http://localhost/",
-      "author": "Keanu Reeves",
-      "desciption": "No, you are amazing!"
+      "author": "Sven Bingert",
+      "desciption": "TBA"
     },
     {
-      "title": "Kernelpower",
-      "date": "2020-09-03",
-      "start": "11:00",
-      "end": "12:15",
-      "room": "MN 07",
+      "title": "An excursion in combinatorics on words",
+      "date": "2020-09-04",
+      "start": "16:00",
+      "end": "17:00",
+      "room": "MN 08",
       "link": "http://localhost/",
-      "author": "Linus T.",
-      "desciption": "How to pick up someone with BASIC."
+      "author": "Florin Manea",
+      "desciption": "In this talk, I will introduce several concepts from the area of combinatorics on words in a framework based on the notion of Word Equation. This perspective will allow us to travel from very basic problems in this area to some attractive open research problems. Along the way we will see interesting connections of combinatorics on words to mathematics and pure combinatorics, algebra, automata theory, computability, complexity theory, algorithms and data structures, and logic. But do not be afraid: we will also see some concrete applications of the ideas we present, useful in practice!"
     },
     {
-      "title": "New Rules",
+      "title": "The Edit Distance to k-Subsequence Universality",
+      "date": "2020-09-04",
+      "start": "18:00",
+      "end": "19:00",
+      "room": "MN 08",
+      "link": "http://localhost/",
+      "author": "Stefan & Mia",
+      "desciption": "TBA"
+    },
+    {
+      "title": "Social Event",
       "date": "2020-09-04",
       "start": "19:00",
-      "end": "20:00",
-      "room": "MN 07",
+      "end": "23:00",
+      "room": "MN 08",
       "link": "http://localhost/",
-      "author": "Dua L.",
-      "desciption": "I like to count all my new rules."
+      "author": "Fachgruppe",
+      "desciption": "Diesen Slot füllst auch DU mit Inhalt: https://pad.gwdg.de/sit2020-socialize/"
     },
     {
-      "title": "Fachgruppenarbeit macht Spass!",
+      "title": "irgendwas mit Legal tech ;)",
       "date": "2020-09-05",
-      "start": "12:00",
+      "start": "14:00",
       "end": "15:00",
-      "room": "CIP Pool",
+      "room": "MN 08",
       "link": "http://localhost/",
-      "author": "aktive Fachgruppe Informatik",
-      "desciption": "Liebe Studierende, [...]"
+      "author": "Anton Wietzke",
+      "desciption": "TBA"
     },
     {
-      "title": "Super TUX Kart Turnier",
+      "title": "Einstieg in Property based testing",
+      "date": "2020-09-05",
+      "start": "16:00",
+      "end": "17:00",
+      "room": "MN 08",
+      "link": "http://localhost/",
+      "author": "Lorenz Glißmann",
+      "desciption": "Tests schreiben ist nervig, anstrengend, kostet viel Zeit und - so fühlen sich viele - ist nichtmal besonders effektiv. Aber zum Glück gibt es Abhilfe: Tests generieren lassen! Property Based Testing ist eine Technik, die Elemente von Programmbeweisen mit den altbekannten beispielbasierten Unit-Tests kombiniert und viel Potential hat, Testing nicht angenehmer, sondern auch besser zu machen."
+    },
+    {
+      "title": "Pfadabhängigkeit",
+      "date": "2020-09-05",
+      "start": "18:00",
+      "end": "19:00",
+      "room": "MN 08",
+      "link": "http://localhost/",
+      "author": "Astarix",
+      "desciption": "Warum sind Dinge wie sie sind? Wenn du mehr wissen willst, komm vorbei."
+    },
+    {
+      "title": "Social Event",
       "date": "2020-09-05",
       "start": "20:00",
-      "end": "22:00",
-      "room": "CIP Pool, oder zu Hause",
+      "end": "23:00",
+      "room": "MN 08",
       "link": "http://localhost/",
-      "author": "aktive Fachgruppe Informatik",
-      "desciption": "Nein, es handelt sich nicht um Cracker."
+      "author": "Fachgruppe",
+      "desciption": "Diesen Slot füllst auch DU mit Inhalt: https://pad.gwdg.de/sit2020-socialize/"
+    },
+    {
+      "title": "Petasearch: Algorithm for fast, approximate comparison of huge protein sequence sets",
+      "date": "2020-09-06",
+      "start": "14:00",
+      "end": "15:00",
+      "room": "MN 08",
+      "link": "http://localhost/",
+      "author": "Jonas Hügel",
+      "desciption": "Metagenomics enables the study of the vast number of organisms that are unculturable under laboratory conditions. The proteins expressed in these organisms represent a treasure trove for scientific, medical and biotechnological use. For example, finding novel heat-resistant homologs of existing proteins could enable more efficient production of medicinal molecules. The Sequence Read Archive currently stores 40 petabases of sequences... *to be continued*..."
+    },
+    {
+      "title": "Frontend Frameworks: Overview 2020",
+      "date": "2020-09-06",
+      "start": "16:00",
+      "end": "17:00",
+      "room": "MN 08",
+      "link": "http://localhost/",
+      "author": "Ole Reglitzky",
+      "desciption": "The frontend world is constantly changing. This talk provides an overview of the current (2020) web frameworks and their recent development, including vue, angular, react and svelte. Differences and issues of each are outlined to guide the choice for your next project or simply to learn in order to get an exciting job."
+    },
+    {
+      "title": "gemeinsames Aufräumen und Klönen",
+      "date": "2020-09-06",
+      "start": "18:00",
+      "end": "20:00",
+      "room": "MN 08",
+      "link": "http://localhost/",
+      "author": "Fachgruppe",
+      "desciption": "Der Name ist Programm."
     }
   ]
 }

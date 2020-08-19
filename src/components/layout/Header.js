@@ -140,8 +140,8 @@ class Header extends React.Component {
                       </li>
                       <li>
                         {" "}
-                        <a href="mailto:fachgruppe@informatik.uni-goettingen.de?subject=%5BSIT2020%5D%5BTalk%5D">
-                          Talk anfragen
+                        <a href="mailto:fachgruppe@informatik.uni-goettingen.de?subject=%5BSIT2020">
+                          Frage stellen
                         </a>
                       </li>
                     </ul>
