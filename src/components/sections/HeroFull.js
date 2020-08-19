@@ -72,13 +72,16 @@ class HeroFull extends React.Component {
                     {`${Settings.date} ${Settings.year}`}
                   </RoughNotation>
                   {` werden zum ${Settings.iteration}. Mal die studentischen
-                  Informatiktage (sIT${Settings.year}) in Göttingen stattfinden. Als
-                  Rahmenthema für die Firmenvorträge haben wir uns dieses Jahr
-                  für `}
-                  <RoughNotation type="box" show color="#98ff98" padding={2}>
-                    {`${Settings.topic}`}
-                  </RoughNotation>
-                  {` entschieden.`}
+                  Informatiktage (sIT${Settings.year}) in Göttingen stattfinden. 
+                  Ein bisschen anders als sonst, aber trotzdem in Präsenz (höchst wahrscheinlich).
+                  
+                  Also `}
+                  <a href="https://survey3.gwdg.de/index.php?r=survey/index&sid=993896&qid=836099">
+                    <RoughNotation type="box" show color="#98ff98" padding={2}>
+                      {`direkt anmelden!`}
+                    </RoughNotation>
+                  </a>
+                  {``}
                 </p>
                 <div className="reveal-from-bottom" data-reveal-delay="600">
                   <Button

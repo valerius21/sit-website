@@ -2,6 +2,7 @@ import React from "react";
 import classNames from "classnames";
 import { SectionProps } from "../../utils/SectionProps";
 import Image from "../elements/Image";
+import Button from "../elements/Button";
 
 const propTypes = {
   ...SectionProps.types,
@@ -55,28 +56,14 @@ class Clients extends React.Component {
                 />
               </li>
               <li>
-                <Image
-                  src={require("./../../assets/images/clients-00.svg")}
-                  alt="Client"
-                  width={124}
-                  height={24}
-                />
-              </li>
-              <li>
-                <Image
-                  src={require("./../../assets/images/clients-00.svg")}
-                  alt="Client"
-                  width={124}
-                  height={24}
-                />
-              </li>
-              <li>
-                <Image
-                  src={require("./../../assets/images/clients-00.svg")}
-                  alt="Client"
-                  width={124}
-                  height={24}
-                />
+              <Button
+                tag="a"
+                color="primary"
+                wideMobile
+                href={`https://survey3.gwdg.de/index.php?r=survey/index&sid=993896&qid=836099`}
+              >
+                zur Anmeldung
+              </Button>
               </li>
             </ul>
           </div>

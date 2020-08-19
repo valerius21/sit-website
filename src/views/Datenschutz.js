@@ -29,7 +29,14 @@ class Datenschutz extends React.Component {
             />
 
             <div className="center-content">
-              <p>Lorem Ipsum</p>
+              <p>Die Nutzung dieser Website ist ohne Angabe von personenbezogenen Daten möglich. Notwendigerweise (das ist Teil davon wie das WWW funktioniert) verarbeiten wir deine IP-Adresse für den Zeitraum, in dem du diese Website lädst. Über dieses technische Mindestmaß hinaus, erheben wir aber keine Daten, ohne dass vorher darauf ausdrücklich hingewiesen wird.
+
+              Weiterhin haben wir eine Karte von openstreetmap.org eingebunden, deshalb überträgst du deine IP-Adresse auch dahin, wenn du deinen Browser nicht datenschutzkonform konfiguriert hast.
+              
+              Wenn du auf einen Link klickst und diese Website verlässt, verlässt du auch den Geltungsbereich dieser Datenschutzerklärung.
+              
+              Darüber hinaus gelten die Angaben von</p>
+              <iframe width="500" height="500px" src="https://asta.uni-goettingen.de/index.html%3Fp=6101.html"></iframe>
             </div>
           </div>
         </GenericSection>

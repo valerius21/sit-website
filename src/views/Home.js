@@ -5,6 +5,7 @@ import SectionHeader from "../components/sections/partials/SectionHeader";
 import HeroFull from "../components/sections/HeroFull";
 import Clients from "../components/sections/Clients";
 import GenericSection from "../components/sections/GenericSection";
+import Button from "../components/elements/Button";
 
 import Events from "../components/sections/Talks";
 
@@ -30,15 +31,22 @@ class Home extends React.Component {
         {/* <FeaturesTiles /> */}
         <Events id="events" topDivider />
         <GenericSection id="about" topDivider>
-          <div className="container-xs">
+          <div className="container-xs center-content">
             <SectionHeader
               data={{
                 title: "Was sind die sIT?",
                 paragraph:
-                  "Die studentischen Informatiktage (sIT), sind ein von der Fachgruppe ausgerichtetes Wochenende für alle Informatik-Interessierten. Dort halten verschiedenste Personen Vorträge aus allen Richtungen der Informatik und darüber hinaus. Es besteht weiterhin meistens die Möglichkeit, spannende Workshops zu besuchen. Wichtige Kontakte zu zahlreichen Unternehmen aus dem Interessengebiet Informatik können geknüpft werden. Dies alles wird durch ein lockeres Umfeld mit angemessenem Rahmenprogramm gefördert.",
+                  "Die studentischen Informatiktage (sIT), sind ein von der Fachgruppe ausgerichtetes Wochenende für alle Informatik-Interessierten. Dort halten verschiedenste Personen Vorträge aus allen Richtungen der Informatik und darüber hinaus. Die meisten Vorträge halten Studierende, es sind aber auch immer Vortragende aus dem Berufsleben dabei. Das Programm wird abgerundet durch lockeres Umfeld und ein soziales Rahmenprogramm. Für Getränke und Essen ist gesorgt.",
               }}
-              className="center-content"
             />
+            <Button
+              tag="a"
+              color="primary"
+              wideMobile
+              href={`https://survey3.gwdg.de/index.php?r=survey/index&sid=993896&qid=836099`}
+            >
+              Jetzt anmelden!
+            </Button>
           </div>
         </GenericSection>
         <GenericSection id="map" topDivider>
