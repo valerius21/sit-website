@@ -1,5 +1,6 @@
 import React from "react";
-import ReactDOM from "react-dom";
+//import ReactDOM from "react-dom";
+import { render } from 'react-snapshot';
 import { Router } from "react-router-dom";
 import { createBrowserHistory } from "history";
 
@@ -11,7 +12,8 @@ import "./assets/scss/style.scss";
 
 const history = createBrowserHistory();
 
-ReactDOM.render(
+//ReactDOM.render(
+render( // using react-snapshot
   <Router history={history}>
     <App />
   </Router>,
