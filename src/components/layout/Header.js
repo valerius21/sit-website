@@ -134,7 +134,12 @@ class Header extends React.Component {
                         </a>
                       </li>
                       <li>
-                        <a href="/datenschutz/" onClick={this.closesMenu}>
+                        <a href="/#about" onclick={this.closesmenu}>
+                          Was sind die sIT?
+                        </a>
+                      </li>
+                      <li>
+                        <a href="/datenschutz/" onclick={this.closesmenu}>
                           Datenschutz
                         </a>
                       </li>
@@ -148,13 +153,13 @@ class Header extends React.Component {
                     {!hideSignin && (
                       <ul className="list-reset header-nav-right">
                         <li>
-                          <Link
-                            to="/signup/"
+                          <a
+                            href="https://survey3.gwdg.de/index.php?r=survey/index&sid=993896&qid=836099"
                             className="button button-primary button-wide-mobile button-sm"
                             onClick={this.closeMenu}
                           >
-                            Sign up
-                          </Link>
+                            Anmeldung
+                          </a>
                         </li>
                       </ul>
                     )}

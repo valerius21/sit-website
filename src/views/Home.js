@@ -3,7 +3,6 @@ import React from "react";
 import SectionHeader from "../components/sections/partials/SectionHeader";
 // import sections
 import HeroFull from "../components/sections/HeroFull";
-import Clients from "../components/sections/Clients";
 import GenericSection from "../components/sections/GenericSection";
 import Button from "../components/elements/Button";
 
@@ -27,8 +26,6 @@ class Home extends React.Component {
     return (
       <React.Fragment>
         <HeroFull className="illustration-section-01" timelineLink={"about"} />
-        <Clients topDivider bottomDivider />
-        {/* <FeaturesTiles /> */}
         <Events id="events" topDivider />
         <GenericSection id="about" topDivider>
           <div className="container-xs center-content">

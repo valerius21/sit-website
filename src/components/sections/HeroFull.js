@@ -3,6 +3,7 @@ import classNames from "classnames";
 import { RoughNotation } from "react-rough-notation";
 import { SectionProps } from "../../utils/SectionProps";
 import Button from "../elements/Button";
+import Image from "../elements/Image";
 import Settings from "../../settings/main.json";
 
 const propTypes = {
@@ -47,6 +48,14 @@ class HeroFull extends React.Component {
         <div className="container-sm">
           <div className={innerClasses}>
             <div className="hero-content">
+              <Image
+                src={require("./../../assets/images/fg-plain.svg")}
+                alt="Fachgruppe Informatik - GA-Universität Göttingen"
+                className="invert-logo"
+                width={250}
+                height={24}
+              />
+              <br />
               <h1
                 className="mt-0 mb-16 reveal-from-bottom"
                 data-reveal-delay="200"
