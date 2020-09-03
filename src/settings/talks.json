@@ -21,14 +21,14 @@
       "desciption": "In this talk, I will introduce several concepts from the area of combinatorics on words in a framework based on the notion of Word Equation. This perspective will allow us to travel from very basic problems in this area to some attractive open research problems. Along the way we will see interesting connections of combinatorics on words to mathematics and pure combinatorics, algebra, automata theory, computability, complexity theory, algorithms and data structures, and logic. But do not be afraid: we will also see some concrete applications of the ideas we present, useful in practice!"
     },
     {
-      "title": "The Edit Distance to k-Subsequence Universality",
+      "title": "New Results on Subsequence-Problems",
       "date": "2020-09-04",
       "start": "18:00",
       "end": "19:00",
       "room": "MN 08",
       "link": "http://localhost/",
       "author": "Stefan & Mia",
-      "desciption": "TBA"
+      "desciption": "In this talk, we will present our group's recent results on string processing problems related to subsequences. A word u is a subsequence of another word w if u can be obtained from w by deleting some of w's letters. The first problem we tackle in this talk is the efficient testing of Simon's Congruence. Two words are k-Simon-congruent if they have exactly the same sets of subsequences of length at most k. The second problem is the Edit Distance of a word w to the set of words which have all possible strings of length k as subsequence. These are called k-subsequence universal words."
     },
     {
       "title": "Social Event",
@@ -41,7 +41,17 @@
       "desciption": "Diesen Slot füllst auch DU mit Inhalt: https://pad.gwdg.de/sit2020-socialize/"
     },
     {
-      "title": "eLegal Göttingen | Digitalisierung von Jura",
+      "title": "Mit CSS Websiten schöner machen",
+      "date": "2020-09-05",
+      "start": "12:00",
+      "end": "13:00",
+      "room": "MN 08",
+      "link": "http://localhost/",
+      "author": "Ole Reglitzki",
+      "desciption": "Ein Workshop, also praktisch. Bringt möglichst Technik mit :)"
+    },
+    {
+      "title": "eLegal - wer sind wir eigentlich ?",
       "date": "2020-09-05",
       "start": "14:00",
       "end": "15:00",
@@ -81,6 +91,16 @@
       "desciption": "Diesen Slot füllst auch DU mit Inhalt: https://pad.gwdg.de/sit2020-socialize/"
     },
     {
+      "title": "Frontend Frameworks: Overview 2020",
+      "date": "2020-09-06",
+      "start": "12:00",
+      "end": "13:00",
+      "room": "MN 08",
+      "link": "http://localhost/",
+      "author": "Ole Reglitzki",
+      "desciption": "The frontend world is constantly changing. This talk provides an overview of the current (2020) web frameworks and their recent development, including vue, angular, react and svelte. Differences and issues of each are outlined to guide the choice for your next project or simply to learn in order to get an exciting job."
+    },
+    {
       "title": "Petasearch: Algorithm for fast, approximate comparison of huge protein sequence sets",
       "date": "2020-09-06",
       "start": "14:00",
@@ -88,17 +108,17 @@
       "room": "MN 08",
       "link": "http://localhost/",
       "author": "Jonas Hügel",
-      "desciption": "Metagenomics enables the study of the vast number of organisms that are unculturable under laboratory conditions. The proteins expressed in these organisms represent a treasure trove for scientific, medical and biotechnological use. For example, finding novel heat-resistant homologs of existing proteins could enable more efficient production of medicinal molecules. The Sequence Read Archive currently stores 40 petabases of sequences... *to be continued*..."
+      "desciption": "The Sequence Read Archive currently stores petabytes of DNA-sequences.  However, sequence similarity searching through this amount of sequences is not practical with current algorithms due to the large memory requirements for database index tables and insufficient speeds. Therefore, we developed the Petasearch algorithm.  We reduce the required memory through the usage of a diff-index structure. To maximize throughput of the prefilter, we exploit the caching and prefetch infrastructures of the CPU and the operating system, as well as the enormous read bandwidth of modern NVMe-SSDs to linearly process all indexed datasets."
     },
     {
-      "title": "Frontend Frameworks: Overview 2020",
+      "title": "Architektur moderner Webanwendungen",
       "date": "2020-09-06",
       "start": "16:00",
       "end": "17:00",
       "room": "MN 08",
       "link": "http://localhost/",
-      "author": "Ole Reglitzki",
-      "desciption": "The frontend world is constantly changing. This talk provides an overview of the current (2020) web frameworks and their recent development, including vue, angular, react and svelte. Differences and issues of each are outlined to guide the choice for your next project or simply to learn in order to get an exciting job."
+      "author": "Dominik Seeger",
+      "desciption": "Jeder benutzt sie, alle lieben sie, aber kaum jemand macht sich Gedanken darüber, wie sie wirklich funktionieren: Webanwendungen haben in den letzten Jahren drastisch an Bedeutung gewonnen. Damit solche Anwendungen täglich mehrere Milliarden Anfragen bewältigen können, braucht es spezialisierte Hard- und Software. In diesem Talk findet ihr einen kleinen Überblick über die Technologie und Architektur hinter modernen Webanwendungen."
     },
     {
       "title": "gemeinsames Aufräumen und Klönen",
