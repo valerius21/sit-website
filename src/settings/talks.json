@@ -31,14 +31,14 @@
       "desciption": "Diesen Slot füllst auch DU mit Inhalt: https://pad.gwdg.de/sit2020-socialize/"
     },
     {
-      "title": "Mit CSS Websiten schöner machen",
+      "title": "Frontend Frameworks: Overview 2020",
       "date": "2020-09-05",
       "start": "12:00",
       "end": "13:00",
       "room": "MN 08",
       "link": "http://localhost/",
       "author": "Ole Reglitzki",
-      "desciption": "The exercise is \"choose some mediocre website and make it visually appealing\". A short introduction will provide you with additional details. A basic understanding of CSS is recommended. You may work in small teams."
+      "desciption": "The frontend world is constantly changing. This talk provides an overview of the current (2020) web frameworks and their recent development, including vue, angular, react and svelte. Differences and issues of each are outlined to guide the choice for your next project or simply to learn in order to get an exciting job."
     },
     {
       "title": "eLegal - wer sind wir eigentlich ?",
@@ -81,14 +81,14 @@
       "desciption": "Diesen Slot füllst auch DU mit Inhalt: https://pad.gwdg.de/sit2020-socialize/"
     },
     {
-      "title": "Frontend Frameworks: Overview 2020",
+      "title": "Mit CSS Websiten schöner machen",
       "date": "2020-09-06",
       "start": "12:00",
       "end": "13:00",
       "room": "MN 08",
       "link": "http://localhost/",
       "author": "Ole Reglitzki",
-      "desciption": "The frontend world is constantly changing. This talk provides an overview of the current (2020) web frameworks and their recent development, including vue, angular, react and svelte. Differences and issues of each are outlined to guide the choice for your next project or simply to learn in order to get an exciting job."
+      "desciption": "The exercise is \"choose some mediocre website and make it visually appealing\". A short introduction will provide you with additional details. A basic understanding of CSS is recommended. You may work in small teams."
     },
     {
       "title": "Petasearch: Algorithm for fast, approximate comparison of huge protein sequence sets",
