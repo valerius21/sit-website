@@ -1,16 +1,6 @@
 {
   "talks": [
     {
-      "title": "Vom Sensor bis zur Datenanalyse",
-      "date": "2020-09-04",
-      "start": "14:00",
-      "end": "15:00",
-      "room": "MN 08",
-      "link": "http://localhost/",
-      "author": "Sven Bingert",
-      "desciption": "TBA"
-    },
-    {
       "title": "An excursion in combinatorics on words",
       "date": "2020-09-04",
       "start": "16:00",
@@ -48,7 +38,7 @@
       "room": "MN 08",
       "link": "http://localhost/",
       "author": "Ole Reglitzki",
-      "desciption": "Ein Workshop, also praktisch. Bringt möglichst Technik mit :)"
+      "desciption": "The exercise is \"choose some mediocre website and make it visually appealing\". A short introduction will provide you with additional details. A basic understanding of CSS is recommended. You may work in small teams."
     },
     {
       "title": "eLegal - wer sind wir eigentlich ?",
@@ -73,7 +63,7 @@
     {
       "title": "Pfadabhängigkeit",
       "date": "2020-09-05",
-      "start": "18:00",
+      "start": "17:30",
       "end": "19:00",
       "room": "MN 08",
       "link": "http://localhost/",

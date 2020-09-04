@@ -11,6 +11,7 @@ import Events from "../components/sections/Talks";
 class Home extends React.Component {
   state = {
     videoModalActive: false,
+    signUpLink: false,
   };
   openModal = (e) => {
     e.preventDefault();
@@ -39,11 +40,21 @@ class Home extends React.Component {
             <Button
               tag="a"
               color="primary"
-              wideMobile
-              href={`https://survey3.gwdg.de/index.php?r=survey/index&sid=993896&qid=836099`}
+              wideModole
+              href="https://pad.gwdg.de/s/HkszmOR7w"
             >
-              Jetzt anmelden!
+              Informationen zum Ablauf und Streams
             </Button>
+            {this.state.signUpLink && (
+              <Button
+                tag="a"
+                color="primary"
+                wideMobile
+                href={`https://survey3.gwdg.de/index.php?r=survey/index&sid=993896&qid=836099`}
+              >
+                Jetzt anmelden!
+              </Button>
+            )}
           </div>
         </GenericSection>
         <GenericSection id="map" topDivider>
