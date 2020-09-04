@@ -27,6 +27,7 @@ class Home extends React.Component {
     return (
       <React.Fragment>
         <HeroFull className="illustration-section-01" timelineLink={"about"} />
+
         <Events id="events" topDivider />
         <GenericSection id="about" topDivider>
           <div className="container-xs center-content">
@@ -37,14 +38,6 @@ class Home extends React.Component {
                   "Die studentischen Informatiktage (sIT), sind ein von der Fachgruppe ausgerichtetes Wochenende für alle Informatik-Interessierten. Dort halten verschiedenste Personen Vorträge aus allen Richtungen der Informatik und darüber hinaus. Die meisten Vorträge halten Studierende, es sind aber auch immer Vortragende aus dem Berufsleben dabei. Das Programm wird abgerundet durch lockeres Umfeld und ein soziales Rahmenprogramm. Für Getränke und Essen ist gesorgt.",
               }}
             />
-            <Button
-              tag="a"
-              color="primary"
-              wideModole
-              href="https://pad.gwdg.de/s/HkszmOR7w"
-            >
-              Informationen zum Ablauf und Streams
-            </Button>
             {this.state.signUpLink && (
               <Button
                 tag="a"

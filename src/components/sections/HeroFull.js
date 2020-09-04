@@ -92,10 +92,20 @@ class HeroFull extends React.Component {
                   </a>
                   {``}
                 </p>
-                <div className="reveal-from-bottom" data-reveal-delay="600">
+                <p>
                   <Button
                     tag="a"
                     color="primary"
+                    wideModole
+                    href="https://pad.gwdg.de/s/HkszmOR7w"
+                  >
+                    Informationen zum Ablauf und Streams
+                  </Button>
+                </p>
+                <div className="reveal-from-bottom" data-reveal-delay="600">
+                  <Button
+                    tag="a"
+                    color="secondary"
                     wideMobile
                     href={`#${timelineLink}`}
                   >
